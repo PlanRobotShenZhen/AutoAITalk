@@ -1,0 +1,16 @@
+.\objects\entenc.o: opus_tool\celt\entenc.c
+.\objects\entenc.o: opus_tool\celt\os_support.h
+.\objects\entenc.o: .\opus_tool\include\opus_types.h
+.\objects\entenc.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\entenc.o: .\opus_tool\include\opus_defines.h
+.\objects\entenc.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\string.h
+.\objects\entenc.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\entenc.o: opus_tool\celt\arch.h
+.\objects\entenc.o: opus_tool\celt\entenc.h
+.\objects\entenc.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\entenc.o: opus_tool\celt\entcode.h
+.\objects\entenc.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\entenc.o: opus_tool\celt\ecintrin.h
+.\objects\entenc.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\math.h
+.\objects\entenc.o: opus_tool\celt\mfrngcod.h
+.\objects\entenc.o: opus_tool\celt\entcode.h

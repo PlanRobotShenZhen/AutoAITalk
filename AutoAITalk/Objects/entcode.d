@@ -1,0 +1,10 @@
+.\objects\entcode.o: opus_tool\celt\entcode.c
+.\objects\entcode.o: opus_tool\celt\entcode.h
+.\objects\entcode.o: .\opus_tool\include\opus_types.h
+.\objects\entcode.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\entcode.o: .\opus_tool\include\opus_defines.h
+.\objects\entcode.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\entcode.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\entcode.o: opus_tool\celt\ecintrin.h
+.\objects\entcode.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\math.h
+.\objects\entcode.o: opus_tool\celt\arch.h

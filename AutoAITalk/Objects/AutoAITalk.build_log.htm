@@ -1,0 +1,1375 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.27.0.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a b, c, LIC=FYKYW-QGBS9-2ZYW4-FMSXI-8NH0W-S3A2Z
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.27.0.0
+Toolchain Path:  D:\Keil_v5_arm\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.27.0.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.5.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+D:\Keil_Project\AutoAITalk\AutoAITalk.uvprojx
+Project File Date:  08/21/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5_arm\ARM\ARMCC\Bin'
+Build target 'AutoAITalk'
+assembling startup_n32h482.s...
+compiling n32h47x_48x_eth.c...
+compiling misc.c...
+compiling n32h47x_48x_dbg.c...
+firmware\n32h47x_48x_std_periph_driver\src\n32h47x_48x_dbg.c(205): warning:  #1565-D: white space between backslash and newline in line splice ignored
+                  - DBG_SHRTIM1_STOP      \* SHRTIM1 counter stopped when core is halted *\  
+firmware\n32h47x_48x_std_periph_driver\src\n32h47x_48x_dbg.c: 1 warning, 0 errors
+compiling n32h47x_48x_dac.c...
+compiling n32h47x_48x_dvp.c...
+compiling n32h47x_48x_dma.c...
+compiling n32h47x_48x_exti.c...
+compiling n32h47x_48x_cordic.c...
+compiling n32h47x_48x_crc.c...
+compiling n32h47x_48x_fdcan.c...
+compiling system_n32h47x_48x.c...
+compiling n32h47x_48x_pwr.c...
+compiling n32h47x_48x_femc.c...
+compiling n32h47x_48x_comp.c...
+compiling n32h47x_48x_flash.c...
+compiling n32h47x_48x_adc.c...
+compiling n32h47x_48x_fmac.c...
+compiling n32h47x_48x_gpio.c...
+compiling n32h47x_48x_pga.c...
+compiling n32h47x_48x_iwdg.c...
+compiling n32h47x_48x_i2c.c...
+compiling n32h47x_48x_rcc.c...
+firmware\n32h47x_48x_std_periph_driver\src\n32h47x_48x_rcc.c(1280): warning:  #1565-D: white space between backslash and newline in line splice ignored
+  *\*\      
+firmware\n32h47x_48x_std_periph_driver\src\n32h47x_48x_rcc.c(1307): warning:  #1565-D: white space between backslash and newline in line splice ignored
+  *\*\      
+firmware\n32h47x_48x_std_periph_driver\src\n32h47x_48x_rcc.c: 2 warnings, 0 errors
+compiling n32h47x_48x_sdio.c...
+compiling n32h47x_48x_rtc.c...
+firmware\n32h47x_48x_std_periph_driver\src\n32h47x_48x_rtc.c(891): warning:  #1565-D: white space between backslash and newline in line splice ignored
+  *\*\          
+firmware\n32h47x_48x_std_periph_driver\src\n32h47x_48x_rtc.c: 1 warning, 0 errors
+compiling n32h47x_48x_lptim.c...
+compiling n32h47x_48x_wwdg.c...
+compiling n32h47x_48x_shrtim.c...
+compiling n32h47x_48x_usart.c...
+compiling n32h47x_48x_tim.c...
+compiling n32h47x_48x_spi.c...
+compiling n32h47x_48x_vrefbuf.c...
+compiling analysis.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+opus_tool\src\analysis.c(582): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         angle = (float)(.5f/M_PI)*fast_atan2f(X1i, X1r);
+opus_tool\src\analysis.c(586): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         angle2 = (float)(.5f/M_PI)*fast_atan2f(X2i, X2r);
+opus_tool\src\analysis.c(590): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         mod1 = d2_angle - (float)float2int(d2_angle);
+opus_tool\src\analysis.c(595): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         mod2 = d2_angle2 - (float)float2int(d2_angle2);
+opus_tool\src\analysis.c(680): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         if (tonal->highE[b] > tonal->lowE[b] + 7.5)
+opus_tool\src\analysis.c(705): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         stationarity = MIN16(0.99f,L1/(float)sqrt(1e-15+NB_FRAMES*L2));
+opus_tool\src\analysis.c(705): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         stationarity = MIN16(0.99f,L1/(float)sqrt(1e-15+NB_FRAMES*L2));
+opus_tool\src\analysis.c(753): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         info->leak_boost[b] = IMIN(255, (int)floor(.5 + 64.f*boost));
+opus_tool\src\analysis.c(753): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         info->leak_boost[b] = IMIN(255, (int)floor(.5 + 64.f*boost));
+opus_tool\src\analysis.c: 12 warnings, 0 errors
+compiling mapping_matrix.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+opus_tool\src\mapping_matrix.c: 3 warnings, 0 errors
+compiling mlp.c...
+compiling n32h47x_48x_xspi.c...
+compiling extensions.c...
+compiling opus.c...
+compiling mlp_data.c...
+compiling opus_multistream.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+opus_tool\src\opus_multistream.c: 3 warnings, 0 errors
+compiling opus_multistream_decoder.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+opus_tool\src\opus_multistream_decoder.c: 3 warnings, 0 errors
+compiling opus_multistream_encoder.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+opus_tool\src\opus_multistream_encoder.c: 3 warnings, 0 errors
+compiling delay.c...
+compiling opus_projection_encoder.c...
+compiling opus_projection_decoder.c...
+compiling main.c...
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+user\src\main.c(689): warning:  #1-D: last line of file ends without a newline
+  }
+user\src\main.c: 6 warnings, 0 errors
+compiling n32h47x_48x_it.c...
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+user\src\n32h47x_48x_it.c: 5 warnings, 0 errors
+compiling repacketizer.c...
+compiling bands.c...
+opus_tool\celt\bands.c(230): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        g = celt_exp2(MIN32(32.f, lg));
+opus_tool\celt\bands.c(299): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        thresh = .5f*celt_exp2(-.125f*depth);
+opus_tool\celt\bands.c(336): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+           r = 2.f*celt_exp2(-Ediff);
+opus_tool\celt\bands.c: 3 warnings, 0 errors
+compiling celt.c...
+opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+opus_tool\celt\celt.c: 3 warnings, 0 errors
+compiling celt_decoder.c...
+opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+opus_tool\celt\celt_decoder.c: 3 warnings, 0 errors
+compiling log.c...
+compiling ws2812.c...
+ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+ws2812\ws2812.c(171): warning:  #1-D: last line of file ends without a newline
+  }
+ws2812\ws2812.c: 6 warnings, 0 errors
+compiling celt_lpc.c...
+compiling cwrs.c...
+compiling celt_encoder.c...
+opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+opus_tool\celt\celt_encoder.c(369): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        mean = celt_sqrt(mean * maxE*.5*len2);
+opus_tool\celt\celt_encoder.c(411): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     *tf_estimate = celt_sqrt(MAX32(0, SHL32(MULT16_16(QCONST16(0.0069,14),MIN16(163,tf_max)),14)-QCONST32(0.139,28)));
+opus_tool\celt\celt_encoder.c(411): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     *tf_estimate = celt_sqrt(MAX32(0, SHL32(MULT16_16(QCONST16(0.0069,14),MIN16(163,tf_max)),14)-QCONST32(0.139,28)));
+opus_tool\celt\celt_encoder.c(1120): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+           importance[i] = (int)floor(.5f+13*celt_exp2(MIN16(follower[i], QCONST16(4.f, DB_SHIFT))));
+opus_tool\celt\celt_encoder.c(1347): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     if (analysis->valid && analysis->activity<.4)
+opus_tool\celt\celt_encoder.c(1695): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        if ((gain1 > QCONST16(.4f,15) || st->prefilter_gain > QCONST16(.4f,15)) && (!st->analysis.valid || st->analysis.tonality > .3)
+opus_tool\celt\celt_encoder.c: 9 warnings, 0 errors
+compiling microphone.c...
+microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+microphone\microphone.c(130): warning:  #1-D: last line of file ends without a newline
+  }
+microphone\microphone.c: 6 warnings, 0 errors
+compiling entenc.c...
+compiling entdec.c...
+compiling entcode.c...
+compiling kiss_fft.c...
+compiling laplace.c...
+compiling opus_encoder.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\src\opus_encoder.c(1165): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+            st->voice_ratio = (int)floor(.5+100*(1-prob));
+opus_tool\src\opus_encoder.c(1804): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      st->variable_HP_smth2_Q15 = silk_SMLAWB( st->variable_HP_smth2_Q15,
+opus_tool\src\opus_encoder.c(1804): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      st->variable_HP_smth2_Q15 = silk_SMLAWB( st->variable_HP_smth2_Q15,
+opus_tool\src\opus_encoder.c(1890): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                 HB_gain = Q15ONE - SHR32(celt_exp2(-celt_rate * QCONST16(1.f/1024, 10)), 1);
+opus_tool\src\opus_encoder.c: 12 warnings, 0 errors
+compiling opus_decoder.c...
+opus_tool\src\opus_decoder.c(37): warning:  #161-D: unrecognized #pragma
+  # pragma message "You appear to be compiling without optimization, if so opus will be very slow."
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\src\opus_decoder.c(644): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        gain = celt_exp2(MULT16_16_P15(QCONST16(6.48814081e-4f, 25), st->decode_gain));
+opus_tool\src\opus_decoder.c: 10 warnings, 0 errors
+compiling mathops.c...
+compiling mdct.c...
+compiling modes.c...
+compiling pitch.c...
+compiling quant_bands.c...
+compiling tables_LTP.c...
+compiling rate.c...
+compiling dec_API.c...
+compiling table_LSF_cos.c...
+compiling vq.c...
+compiling tables_gain.c...
+compiling tables_NLSF_CB_WB.c...
+compiling tables_NLSF_CB_NB_MB.c...
+compiling tables_other.c...
+compiling tables_pitch_lag.c...
+compiling A2NLSF.c...
+compiling ana_filt_bank_1.c...
+compiling tables_pulses_per_block.c...
+compiling bwexpander.c...
+compiling bwexpander_32.c...
+compiling check_control_input.c...
+compiling biquad_alt.c...
+compiling CNG.c...
+compiling code_signs.c...
+compiling control_audio_bandwidth.c...
+compiling control_SNR.c...
+compiling debug.c...
+compiling decode_core.c...
+compiling decode_frame.c...
+compiling decode_parameters.c...
+compiling decode_indices.c...
+compiling decode_pitch.c...
+compiling decode_pulses.c...
+compiling encode_indices.c...
+compiling decoder_set_fs.c...
+compiling encode_pulses.c...
+compiling enc_API.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+.\opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+.\opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+.\opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\enc_API.c(176): warning:  #223-D: function "check_control_input" declared implicitly
+      if( ( ret = check_control_input( encControl ) ) != 0 ) {
+opus_tool\silk\enc_API.c(375): warning:  #223-D: function "silk_stereo_encode_pred" declared implicitly
+                                  silk_stereo_encode_pred( psRangeEnc, psEnc->sStereo.predIx[ i ] );
+opus_tool\silk\enc_API.c(378): warning:  #223-D: function "silk_stereo_encode_mid_only" declared implicitly
+                                      silk_stereo_encode_mid_only( psRangeEnc, psEnc->sStereo.mid_only_flags[ i ] );
+opus_tool\silk\enc_API.c(387): warning:  #223-D: function "silk_encode_indices" declared implicitly
+                              silk_encode_indices( &psEnc->state_Fxx[ n ].sCmn, psRangeEnc, i, 1, condCoding );
+opus_tool\silk\enc_API.c(388): warning:  #223-D: function "silk_encode_pulses" declared implicitly
+                              silk_encode_pulses( psRangeEnc, psEnc->state_Fxx[ n ].sCmn.indices_LBRR[i].signalType, psEnc->state_Fxx[ n ].sCmn.indices_LBRR[i].quantOffsetType,
+opus_tool\silk\enc_API.c(439): warning:  #223-D: function "silk_stereo_LR_to_MS" declared implicitly
+                  silk_stereo_LR_to_MS( &psEnc->sStereo, &psEnc->state_Fxx[ 0 ].sCmn.inputBuf[ 2 ], &psEnc->state_Fxx[ 1 ].sCmn.inputBuf[ 2 ],
+opus_tool\silk\enc_API.c(462): warning:  #223-D: function "silk_stereo_encode_pred" declared implicitly
+                      silk_stereo_encode_pred( psRangeEnc, psEnc->sStereo.predIx[ psEnc->state_Fxx[ 0 ].sCmn.nFramesEncoded ] );
+opus_tool\silk\enc_API.c(464): warning:  #223-D: function "silk_stereo_encode_mid_only" declared implicitly
+                          silk_stereo_encode_mid_only( psRangeEnc, psEnc->sStereo.mid_only_flags[ psEnc->state_Fxx[ 0 ].sCmn.nFramesEncoded ] );
+opus_tool\silk\enc_API.c(505): warning:  #223-D: function "silk_control_SNR" declared implicitly
+                      silk_control_SNR( &psEnc->state_Fxx[ n ].sCmn, channelRate_bps );
+opus_tool\silk\enc_API.c(552): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                  speech_act_thr_for_switch_Q8 = silk_SMLAWB( SILK_FIX_CONST( SPEECH_ACTIVITY_DTX_THRES, 8 ),
+opus_tool\silk\enc_API.c(552): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                  speech_act_thr_for_switch_Q8 = silk_SMLAWB( SILK_FIX_CONST( SPEECH_ACTIVITY_DTX_THRES, 8 ),
+opus_tool\silk\enc_API.c(552): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                  speech_act_thr_for_switch_Q8 = silk_SMLAWB( SILK_FIX_CONST( SPEECH_ACTIVITY_DTX_THRES, 8 ),
+opus_tool\silk\enc_API.c: 24 warnings, 0 errors
+compiling gain_quant.c...
+compiling init_decoder.c...
+compiling inner_prod_aligned.c...
+compiling interpolate.c...
+compiling lin2log.c...
+compiling log2lin.c...
+compiling LPC_fit.c...
+compiling LP_variable_cutoff.c...
+compiling LPC_analysis_filter.c...
+compiling NLSF_decode.c...
+compiling NLSF_encode.c...
+compiling LPC_inv_pred_gain.c...
+opus_tool\silk\LPC_inv_pred_gain.c(70): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          if( invGain_Q30 < SILK_FIX_CONST( 1.0f / MAX_PREDICTION_POWER_GAIN, 30 ) ) {
+opus_tool\silk\LPC_inv_pred_gain.c(114): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      if( invGain_Q30 < SILK_FIX_CONST( 1.0f / MAX_PREDICTION_POWER_GAIN, 30 ) ) {
+opus_tool\silk\LPC_inv_pred_gain.c: 2 warnings, 0 errors
+compiling NLSF_stabilize.c...
+compiling NLSF_del_dec_quant.c...
+compiling NLSF_VQ.c...
+compiling NLSF_unpack.c...
+compiling NLSF_VQ_weights_laroia.c...
+compiling NLSF2A.c...
+compiling pitch_est_tables.c...
+compiling NSQ.c...
+compiling PLC.c...
+compiling NSQ_del_dec.c...
+compiling process_NLSFs.c...
+compiling resampler.c...
+compiling HP_variable_cutoff.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+.\opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+.\opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+.\opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\HP_variable_cutoff.c(66): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        delta_freq_Q7 = silk_LIMIT_32( delta_freq_Q7, -SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ), SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ) );
+opus_tool\silk\HP_variable_cutoff.c(66): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        delta_freq_Q7 = silk_LIMIT_32( delta_freq_Q7, -SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ), SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ) );
+opus_tool\silk\HP_variable_cutoff.c(66): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        delta_freq_Q7 = silk_LIMIT_32( delta_freq_Q7, -SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ), SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ) );
+opus_tool\silk\HP_variable_cutoff.c(66): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        delta_freq_Q7 = silk_LIMIT_32( delta_freq_Q7, -SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ), SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ) );
+opus_tool\silk\HP_variable_cutoff.c(66): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        delta_freq_Q7 = silk_LIMIT_32( delta_freq_Q7, -SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ), SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ) );
+opus_tool\silk\HP_variable_cutoff.c(66): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        delta_freq_Q7 = silk_LIMIT_32( delta_freq_Q7, -SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ), SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ) );
+opus_tool\silk\HP_variable_cutoff.c(66): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        delta_freq_Q7 = silk_LIMIT_32( delta_freq_Q7, -SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ), SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ) );
+opus_tool\silk\HP_variable_cutoff.c(66): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        delta_freq_Q7 = silk_LIMIT_32( delta_freq_Q7, -SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ), SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ) );
+opus_tool\silk\HP_variable_cutoff.c(66): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        delta_freq_Q7 = silk_LIMIT_32( delta_freq_Q7, -SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ), SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ) );
+opus_tool\silk\HP_variable_cutoff.c(66): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        delta_freq_Q7 = silk_LIMIT_32( delta_freq_Q7, -SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ), SILK_FIX_CONST( VARIABLE_HP_MAX_DELTA_FREQ, 7 ) );
+opus_tool\silk\HP_variable_cutoff.c(69): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        psEncC1->variable_HP_smth1_Q15 = silk_SMLAWB( psEncC1->variable_HP_smth1_Q15,
+opus_tool\silk\HP_variable_cutoff.c(69): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        psEncC1->variable_HP_smth1_Q15 = silk_SMLAWB( psEncC1->variable_HP_smth1_Q15,
+opus_tool\silk\HP_variable_cutoff.c: 24 warnings, 0 errors
+compiling quant_LTP_gains.c...
+opus_tool\silk\quant_LTP_gains.c(82): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+              max_gain_Q7 = silk_log2lin( ( SILK_FIX_CONST( MAX_SUM_LOG_GAIN_DB / 6.0, 7 ) - sum_log_gain_tmp_Q7 )
+opus_tool\silk\quant_LTP_gains.c: 1 warning, 0 errors
+compiling resampler_private_AR2.c...
+compiling resampler_down2_3.c...
+compiling resampler_down2.c...
+compiling resampler_private_down_FIR.c...
+compiling resampler_private_IIR_FIR.c...
+compiling init_encoder.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+.\opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+.\opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+.\opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\init_encoder.c(65): warning:  #223-D: function "silk_VAD_Init" declared implicitly
+      ret += silk_VAD_Init( &psEnc->sCmn.sVAD );
+opus_tool\silk\init_encoder.c: 13 warnings, 0 errors
+compiling resampler_private_up2_HQ.c...
+compiling resampler_rom.c...
+compiling sigm_Q15.c...
+compiling shell_coder.c...
+compiling stereo_decode_pred.c...
+compiling sort.c...
+compiling stereo_encode_pred.c...
+compiling stereo_find_predictor.c...
+compiling stereo_LR_to_MS.c...
+compiling stereo_MS_to_LR.c...
+compiling sum_sqr_shift.c...
+compiling stereo_quant_pred.c...
+compiling VQ_WMat_EC.c...
+compiling VAD.c...
+compiling control_codec.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+.\opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+.\opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+.\opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\control_codec.c(100): warning:  #223-D: function "silk_control_audio_bandwidth" declared implicitly
+      fs_kHz = silk_control_audio_bandwidth( &psEnc->sCmn, encControl );
+opus_tool\silk\control_codec.c(365): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          psEncC->warping_Q16                     = psEncC->fs_kHz * SILK_FIX_CONST( WARPING_MULTIPLIER, 16 );
+opus_tool\silk\control_codec.c(375): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          psEncC->warping_Q16                     = psEncC->fs_kHz * SILK_FIX_CONST( WARPING_MULTIPLIER, 16 );
+opus_tool\silk\control_codec.c(385): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          psEncC->warping_Q16                     = psEncC->fs_kHz * SILK_FIX_CONST( WARPING_MULTIPLIER, 16 );
+opus_tool\silk\control_codec.c: 16 warnings, 0 errors
+compiling apply_sine_window_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\apply_sine_window_FLP.c: 12 warnings, 0 errors
+compiling autocorrelation_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\autocorrelation_FLP.c: 12 warnings, 0 errors
+compiling bwexpander_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\bwexpander_FLP.c: 12 warnings, 0 errors
+compiling burg_modified_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\burg_modified_FLP.c: 12 warnings, 0 errors
+compiling energy_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\energy_FLP.c: 12 warnings, 0 errors
+compiling encode_frame_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\encode_frame_FLP.c(49): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      const opus_int activity_threshold = SILK_FIX_CONST( SPEECH_ACTIVITY_DTX_THRES, 8 );
+opus_tool\silk\float\encode_frame_FLP.c(55): warning:  #223-D: function "silk_VAD_GetSA_Q8_c" declared implicitly
+  	  silk_VAD_GetSA_Q8_c( &psEnc->sCmn, psEnc->sCmn.inputBuf + 1);
+opus_tool\silk\float\encode_frame_FLP.c(130): warning:  #223-D: function "silk_LP_variable_cutoff" declared implicitly
+      silk_LP_variable_cutoff( &psEnc->sCmn.sLP, psEnc->sCmn.inputBuf + 1, psEnc->sCmn.frame_length );
+opus_tool\silk\float\encode_frame_FLP.c(173): warning:  #223-D: function "silk_gains_ID" declared implicitly
+          gainsID = silk_gains_ID( psEnc->sCmn.indices.GainsIndices, psEnc->sCmn.nb_subfr );
+opus_tool\silk\float\encode_frame_FLP.c(209): warning:  #223-D: function "silk_encode_indices" declared implicitly
+                  silk_encode_indices( &psEnc->sCmn, psRangeEnc, psEnc->sCmn.nFramesEncoded, 0, condCoding );
+opus_tool\silk\float\encode_frame_FLP.c(214): warning:  #223-D: function "silk_encode_pulses" declared implicitly
+                  silk_encode_pulses( psRangeEnc, psEnc->sCmn.indices.signalType, psEnc->sCmn.indices.quantOffsetType,
+opus_tool\silk\float\encode_frame_FLP.c(341): warning:  #223-D: function "silk_gains_quant" declared implicitly
+              silk_gains_quant( psEnc->sCmn.indices.GainsIndices, pGains_Q16,
+opus_tool\silk\float\encode_frame_FLP.c(396): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      if( psEnc->sCmn.LBRR_enabled && psEnc->sCmn.speech_activity_Q8 > SILK_FIX_CONST( LBRR_SPEECH_ACTIVITY_THRES, 8 ) ) {
+opus_tool\silk\float\encode_frame_FLP.c(416): warning:  #223-D: function "silk_gains_dequant" declared implicitly
+          silk_gains_dequant( Gains_Q16, psIndices_LBRR->GainsIndices,
+opus_tool\silk\float\encode_frame_FLP.c: 21 warnings, 0 errors
+compiling corrMatrix_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\corrMatrix_FLP.c: 12 warnings, 0 errors
+compiling find_LPC_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\find_LPC_FLP.c(74): warning:  #223-D: function "silk_interpolate" declared implicitly
+              silk_interpolate( NLSF0_Q15, psEncC->prev_NLSFq_Q15, NLSF_Q15, k, psEncC->predictLPCOrder );
+opus_tool\silk\float\find_LPC_FLP.c: 13 warnings, 0 errors
+compiling find_pitch_lags_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\find_pitch_lags_FLP.c: 12 warnings, 0 errors
+compiling find_pred_coefs_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\find_pred_coefs_FLP.c: 12 warnings, 0 errors
+compiling find_LTP_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\find_LTP_FLP.c: 12 warnings, 0 errors
+compiling inner_product_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\inner_product_FLP.c: 12 warnings, 0 errors
+compiling LPC_analysis_filter_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\LPC_analysis_filter_FLP.c: 12 warnings, 0 errors
+compiling k2a_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\k2a_FLP.c: 12 warnings, 0 errors
+compiling LPC_inv_pred_gain_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\LPC_inv_pred_gain_FLP.c: 12 warnings, 0 errors
+compiling LTP_analysis_filter_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\LTP_analysis_filter_FLP.c: 12 warnings, 0 errors
+compiling noise_shape_analysis_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\noise_shape_analysis_FLP.c: 12 warnings, 0 errors
+compiling LTP_scale_ctrl_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\LTP_scale_ctrl_FLP.c: 12 warnings, 0 errors
+compiling pitch_analysis_core_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\pitch_analysis_core_FLP.c: 12 warnings, 0 errors
+compiling residual_energy_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\residual_energy_FLP.c: 12 warnings, 0 errors
+compiling process_gains_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\process_gains_FLP.c(75): warning:  #223-D: function "silk_gains_quant" declared implicitly
+      silk_gains_quant( psEnc->sCmn.indices.GainsIndices, pGains_Q16,
+opus_tool\silk\float\process_gains_FLP.c: 13 warnings, 0 errors
+compiling sort_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\sort_FLP.c: 12 warnings, 0 errors
+compiling regularize_correlations_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\regularize_correlations_FLP.c: 12 warnings, 0 errors
+compiling scale_copy_vector_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\scale_copy_vector_FLP.c: 12 warnings, 0 errors
+compiling scale_vector_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\scale_vector_FLP.c: 12 warnings, 0 errors
+compiling schur_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\schur_FLP.c: 12 warnings, 0 errors
+compiling wrappers_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\wrappers_FLP.c(86): warning:  #223-D: function "silk_process_NLSFs" declared implicitly
+      silk_process_NLSFs( psEncC, PredCoef_Q12, NLSF_Q15, prev_NLSF_Q15);
+opus_tool\silk\float\wrappers_FLP.c(168): warning:  #223-D: function "silk_NSQ_del_dec_c" declared implicitly
+          silk_NSQ_del_dec_c( &psEnc->sCmn, psNSQ, psIndices, x16, pulses, PredCoef_Q12[ 0 ], LTPCoef_Q14,
+opus_tool\silk\float\wrappers_FLP.c(173): warning:  #223-D: function "silk_NSQ_c" declared implicitly
+          silk_NSQ_c( &psEnc->sCmn, psNSQ, psIndices, x16, pulses, PredCoef_Q12[ 0 ], LTPCoef_Q14,
+opus_tool\silk\float\wrappers_FLP.c(208): warning:  #223-D: function "silk_quant_LTP_gains" declared implicitly
+      silk_quant_LTP_gains( B_Q14, cbk_index, periodicity_index, sum_log_gain_Q7, &pred_gain_dB_Q7, XX_Q17, xX_Q17, subfr_len, nb_subfr, arch );
+opus_tool\silk\float\wrappers_FLP.c: 16 warnings, 0 errors
+compiling warped_autocorrelation_FLP.c...
+.\opus_tool\celt\float_cast.h(135): warning:  #1215-D: #warning directive: "Don't have the functions lrint() and lrintf ()."
+          #warning "Don't have the functions lrint() and lrintf ()."
+.\opus_tool\celt\float_cast.h(136): warning:  #1215-D: #warning directive: "Replacing these functions with a standard C cast."
+          #warning "Replacing these functions with a standard C cast."
+.\opus_tool\celt\float_cast.h(148): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     return (opus_int16)float2int(x);
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+opus_tool\silk\float\SigProc_FLP.h(166): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return (opus_int32)float2int( x );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\SigProc_FLP.h(178): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          out[k] = silk_SAT16( (opus_int32)float2int( in[k] ) );
+opus_tool\silk\float\warped_autocorrelation_FLP.c: 12 warnings, 0 errors
+compiling speaker.c...
+speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+speaker\speaker.c(206): warning:  #1-D: last line of file ends without a newline
+  }
+speaker\speaker.c: 6 warnings, 0 errors
+compiling websocket.c...
+websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+websocket\websocket.c: 5 warnings, 0 errors
+compiling hw_config.c...
+compiling usbfsd_desc.c...
+compiling usbfsd_endp.c...
+compiling usbfsd_pwr.c...
+compiling usbfsd_prop.c...
+compiling usbfsd_istr.c...
+compiling usbfsd_sil.c...
+compiling usbfsd_core.c...
+compiling usbfsd_int.c...
+compiling usbfsd_mem.c...
+compiling usbfsd_regs.c...
+compiling usbfsd_init.c...
+compiling queue.c...
+Queue\queue.h(56): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\ws2812\ws2812.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\microphone\microphone.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\speaker\speaker.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\websocket\websocket.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+Queue\queue.c(79): warning:  #1-D: last line of file ends without a newline
+  }
+Queue\queue.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=228500 RO-data=36724 RW-data=592 ZI-data=189328  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output=.\Objects\test.bin .\Objects\test.axf
+".\Objects\AutoAITalk.axf" - 0 Error(s), 539 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Nationstech
+                http://www.keil.com/pack/Nationstech.N32H48x_DFP.1.0.0.pack
+                Nationstech.N32H48x_DFP.1.0.0
+                Nationstech N32H48x Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_AutoAITalk
+  D:\Keil_v5_arm\ARM\PACK\Nationstech\N32H48x_DFP\1.0.0\firmware\CMSIS\device
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:16:20
+</pre>
+</body>
+</html>

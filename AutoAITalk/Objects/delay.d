@@ -1,0 +1,13 @@
+.\objects\delay.o: bsp\src\delay.c
+.\objects\delay.o: .\bsp\inc\delay.h
+.\objects\delay.o: .\firmware\CMSIS\device\n32h47x_48x.h
+.\objects\delay.o: .\firmware\CMSIS\core\core_cm4.h
+.\objects\delay.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\delay.o: .\firmware\CMSIS\core\cmsis_version.h
+.\objects\delay.o: .\firmware\CMSIS\core\cmsis_compiler.h
+.\objects\delay.o: .\firmware\CMSIS\core\cmsis_armcc.h
+.\objects\delay.o: .\firmware\CMSIS\core\mpu_armv7.h
+.\objects\delay.o: .\firmware\CMSIS\device\system_n32h47x_48x.h
+.\objects\delay.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\delay.o: .\firmware\n32h47x_48x_std_periph_driver\inc\misc.h
+.\objects\delay.o: .\firmware\n32h47x_48x_std_periph_driver\inc\n32h47x_48x_rcc.h

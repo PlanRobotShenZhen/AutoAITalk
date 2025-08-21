@@ -1,0 +1,10 @@
+.\objects\opus_custom_demo.o: opus_tool\celt\opus_custom_demo.c
+.\objects\opus_custom_demo.o: .\opus_tool\include\opus_custom.h
+.\objects\opus_custom_demo.o: .\opus_tool\include\opus_defines.h
+.\objects\opus_custom_demo.o: .\opus_tool\include\opus_types.h
+.\objects\opus_custom_demo.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\opus_custom_demo.o: opus_tool\celt\arch.h
+.\objects\opus_custom_demo.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\opus_custom_demo.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\opus_custom_demo.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\math.h
+.\objects\opus_custom_demo.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\string.h

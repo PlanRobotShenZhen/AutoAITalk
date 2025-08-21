@@ -1,0 +1,10 @@
+.\objects\system_n32h47x_48x.o: firmware\CMSIS\device\system_n32h47x_48x.c
+.\objects\system_n32h47x_48x.o: firmware\CMSIS\device\n32h47x_48x.h
+.\objects\system_n32h47x_48x.o: .\firmware\CMSIS\core\core_cm4.h
+.\objects\system_n32h47x_48x.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_n32h47x_48x.o: .\firmware\CMSIS\core\cmsis_version.h
+.\objects\system_n32h47x_48x.o: .\firmware\CMSIS\core\cmsis_compiler.h
+.\objects\system_n32h47x_48x.o: .\firmware\CMSIS\core\cmsis_armcc.h
+.\objects\system_n32h47x_48x.o: .\firmware\CMSIS\core\mpu_armv7.h
+.\objects\system_n32h47x_48x.o: firmware\CMSIS\device\system_n32h47x_48x.h
+.\objects\system_n32h47x_48x.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdbool.h

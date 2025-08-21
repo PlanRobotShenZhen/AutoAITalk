@@ -1,0 +1,12 @@
+.\objects\n32h47x_48x_comp.o: firmware\n32h47x_48x_std_periph_driver\src\n32h47x_48x_comp.c
+.\objects\n32h47x_48x_comp.o: .\firmware\n32h47x_48x_std_periph_driver\inc\n32h47x_48x_comp.h
+.\objects\n32h47x_48x_comp.o: .\firmware\CMSIS\device\n32h47x_48x.h
+.\objects\n32h47x_48x_comp.o: .\firmware\CMSIS\core\core_cm4.h
+.\objects\n32h47x_48x_comp.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\n32h47x_48x_comp.o: .\firmware\CMSIS\core\cmsis_version.h
+.\objects\n32h47x_48x_comp.o: .\firmware\CMSIS\core\cmsis_compiler.h
+.\objects\n32h47x_48x_comp.o: .\firmware\CMSIS\core\cmsis_armcc.h
+.\objects\n32h47x_48x_comp.o: .\firmware\CMSIS\core\mpu_armv7.h
+.\objects\n32h47x_48x_comp.o: .\firmware\CMSIS\device\system_n32h47x_48x.h
+.\objects\n32h47x_48x_comp.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\n32h47x_48x_comp.o: .\firmware\n32h47x_48x_std_periph_driver\inc\n32h47x_48x_rcc.h

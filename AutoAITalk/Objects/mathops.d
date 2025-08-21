@@ -1,0 +1,14 @@
+.\objects\mathops.o: opus_tool\celt\mathops.c
+.\objects\mathops.o: opus_tool\celt\mathops.h
+.\objects\mathops.o: opus_tool\celt\arch.h
+.\objects\mathops.o: .\opus_tool\include\opus_types.h
+.\objects\mathops.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mathops.o: .\opus_tool\include\opus_defines.h
+.\objects\mathops.o: opus_tool\celt\entcode.h
+.\objects\mathops.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\mathops.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\mathops.o: opus_tool\celt\ecintrin.h
+.\objects\mathops.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\math.h
+.\objects\mathops.o: opus_tool\celt\os_support.h
+.\objects\mathops.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mathops.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdlib.h

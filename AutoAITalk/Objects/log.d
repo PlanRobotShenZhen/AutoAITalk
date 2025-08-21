@@ -1,0 +1,15 @@
+.\objects\log.o: bsp\src\log.c
+.\objects\log.o: .\bsp\inc\log.h
+.\objects\log.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\log.o: .\firmware\CMSIS\device\n32h47x_48x.h
+.\objects\log.o: .\firmware\CMSIS\core\core_cm4.h
+.\objects\log.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\log.o: .\firmware\CMSIS\core\cmsis_version.h
+.\objects\log.o: .\firmware\CMSIS\core\cmsis_compiler.h
+.\objects\log.o: .\firmware\CMSIS\core\cmsis_armcc.h
+.\objects\log.o: .\firmware\CMSIS\core\mpu_armv7.h
+.\objects\log.o: .\firmware\CMSIS\device\system_n32h47x_48x.h
+.\objects\log.o: D:\Keil_v5_arm\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\log.o: .\firmware\n32h47x_48x_std_periph_driver\inc\n32h47x_48x_gpio.h
+.\objects\log.o: .\firmware\n32h47x_48x_std_periph_driver\inc\n32h47x_48x_usart.h
+.\objects\log.o: .\firmware\n32h47x_48x_std_periph_driver\inc\n32h47x_48x_rcc.h
