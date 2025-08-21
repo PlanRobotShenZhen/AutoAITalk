@@ -7,7 +7,7 @@
 
 　　本平台专为智能硬件开发者设计，具备高实时性交互、语音控制其他设备和个性化 AI 角色定制等核心功能，既满足教学研究需求，又能直接应用于商业级产品开发，为 AI 玩具、智能家居等领域提供一个高效、低成本、灵活且易于集成的解决方案。开发者可基于本项目的技术框架与实现思路，灵活拓展出多种智能音频应用，例如：便携式录音设备、智能蓝牙/WIFI音箱、智能玩具，等等。
 
-　　详细的技术文档见<a href="http://www.planrobots.com/" target="_blank">普蓝机器人官网</a>
+　　详细的技术文档见<a href="http://www.planrobots.com/" target="_blank">普蓝机器人官网</a>。
 
 ## 基本框架
 
@@ -260,11 +260,15 @@
 
 　　SoftAP 是一种通用性强、兼容性高的配网方式。设备上电后，自身会创建一个 WIFI 热点`AITalk_SoftAP`，用户通过手机或电脑连接该热点后，可以在浏览器中打开配网界面（网址 **192.168.4.1**）。
 
-<center class ='img'><img src=".\Images\SoftAP1.png" height="400"> </center>
+<div align="center">
+  <img src="./Images/SoftAP1.png" height="400" alt="SoftAP 1">
+</div>
 
 　　在配网界面中，输入目标 WIFI 的 ssid、password 之后，即可点击“开始配网”按钮进行配网。配网成功后，配网界面会弹出提示消息“**配网成功，5秒后自动关闭网页**”。
 
-<center class ='img'><img src=".\Images\SoftAP2.png" height="400"> </center>
+<div align="center">
+  <img src="./Images/SoftAP2.png" height="400" alt="SoftAP 2">
+</div>
 
 ### BluFi 配网
 
@@ -272,15 +276,21 @@
 
 - 扫描并连接设备蓝牙`AutoAITalk_BluFi`；
 
-<center class ='img'><img src=".\Images\BluFi1.png" height="400"> </center>
+<div align="center">
+  <img src="./Images/BluFi1.png" height="400" alt="BluFi 1">
+</div>
 
 - APP 会自动将当前手机连接的 WIFI 作为目标 WIFI，用户输入密码之后，点击“发送”按钮进行配网；
 
-<center class ='img'><img src=".\Images\BluFi2.png" height="400"> </center>
+<div align="center">
+  <img src="./Images/BluFi2.png" height="400" alt="BluFi 2">
+</div>
 
 - 配网成功后，会弹出提示消息“**配网成功，正在跳转**”，并跳转到 APP 主界面。
 
-<center class ='img'><img src=".\Images\BluFi3.png" height="600"> </center>
+<div align="center">
+  <img src="./Images/BluFi3.png" height="600" alt="BluFi 3">
+</div>
 
 ### 语音对话
 
@@ -292,11 +302,15 @@
 
 　　在配套的 **AutoAITalk App** 中，我们面向儿童教育与家庭互动场景，预设了多种 AI 角色，如“爸爸”、“妈妈”、“姐姐”、“弟弟”，支持**角色扮演、讲故事、问答互动**等功能，为孩子提供温暖、有情感的对话陪伴体验。
 
-<center class ='img'><img src=".\Images\APP1.png" height="600"> </center>
+<div align="center">
+  <img src="./Images/APP1.png" height="600" alt="APP 1">
+</div>
 
 　　此外，用户还可根据个人喜好，在 App 中创建专属 AI 角色，包括**自定义角色名称、性格特征、设定角色原型**，等等。
 
-<center class ='img'><img src=".\Images\APP2.png" height="600"> </center>
+<div align="center">
+  <img src="./Images/APP2.png" height="600" alt="APP 2">
+</div>
 
 ## 边缘部署（支持离线运行）
 
